@@ -131,7 +131,5 @@ if user_input:
             st.session_state.chatbot_history.append({"role": "assistant", "content": reply})
 
 st.divider()
-st.markdown(
-    "<p style='text-align:center; color:gray;'>Built for the Google AI Hackathon 2026</p>",
-    unsafe_allow_html=True,
-)
+st.markdown("<p style='text-align:center; color:gray;'>Built by Sohan | AI Space Dashboard</p>",
+            unsafe_allow_html=True)
